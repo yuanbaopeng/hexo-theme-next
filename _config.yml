@@ -102,8 +102,8 @@ footer:
 # Available values: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 creative_commons:
   license: by-nc-sa
-  sidebar: false
-  post: false
+  sidebar: true
+  post: true
 
 
 # ---------------------------------------------------------------
@@ -116,11 +116,11 @@ creative_commons:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
-index_with_subtitle: false
+index_with_subtitle: true
 
 # Automatically add external URL with BASE64 encrypt & decrypt.
 exturl: false
@@ -143,7 +143,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
+  sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
@@ -178,7 +178,7 @@ site_state: true
 social:
   GitHub: https://github.com/yuanbaopeng || github
   E-Mail: mailto:yuanbaopeng2008@gmail.com || envelope
-  #Weibo: https://weibo.com/yourname || weibo
+  Weibo: https://weibo.com/u/2722399001 || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -614,10 +614,10 @@ needmoreshare2:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters
-#google_site_verification:
+google_site_verification: -KoHoxIV19TD1FCCSSvChHsb2tn5voDmXRN1JqvgQv4
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-131793259-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster
@@ -715,7 +715,7 @@ busuanzi_count:
 #tencent_mta:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page.
