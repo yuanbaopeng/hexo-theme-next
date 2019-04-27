@@ -738,10 +738,6 @@ needmoreshare2:
       position: middleRight
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
 
-# Google Webmaster tools verification setting
-# See: https://www.google.com/webmasters
-google_site_verification: -KoHoxIV19TD1FCCSSvChHsb2tn5voDmXRN1JqvgQv4
-
 # ---------------------------------------------------------------
 # Statistics and Analytics
 # See: https://theme-next.org/docs/third-party-services/statistics-and-analytics
